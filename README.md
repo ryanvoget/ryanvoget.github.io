@@ -46,26 +46,3 @@
 </body>
 </html>
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-header {
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-}
