@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F3F3; /* Light gray like Excel */
+  margin: 0;
+  padding: 0;
+}
+
+/* Toolbar styling */
+.toolbar {
+  display: flex;
+  background-color: #F0F0F0; /* Light toolbar background */
+  padding: 10px;
+  border-bottom: 2px solid #C0C0C0;
+}
+
+.tool-button {
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #D0D0D0;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.tool-button:hover {
+  background-color: #E0E0E0;
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns; adjust as needed */
+  gap: 0; /* No gap between cells */
+  border: 1px solid #C0C0C0;
+  margin: 20px;
+  background-color: white;
+}
+
+.grid-header {
+  background-color: #D9EAD3; /* Excel header color (greenish) */
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #C0C0C0;
+  font-weight: bold;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid #D0D0D0;
+  height: 40px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.grid-item:nth-child(even) {
+  background-color: #F9F9F9; /* Alternating row colors like Excel */
+}
+
+/* Optional: Add hover effect for cells */
+.grid-item:hover {
+  background-color: #FFF2CC; /* Excel-like cell hover color */
+}
