@@ -1,0 +1,51 @@
+.pivot-table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: table-row;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row-label, .col-label, .cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.row-label {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.col-labels {
+    display: table-row-group;
+}
+
+.col-label {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.body .row {
+    display: table-row;
+}
+
+.body .cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.pivot-table .body .row-label {
+    display: table-cell;
+    font-weight: bold;
+    background-color: #eaeaea;
+}
